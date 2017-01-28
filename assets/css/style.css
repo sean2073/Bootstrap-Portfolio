@@ -1,0 +1,125 @@
+body{
+	width: 960px;
+	margin:0 auto;
+	background-image: url("../images/pink_rice.png");
+}
+.mainheader{
+	background-color: #ffffff;
+	height: 50px;
+
+	margin-bottom: 20px;
+	border-bottom: 4px solid;
+	border-color: #cccccc;
+}
+
+.header{
+	float: left;
+	color:white;
+	background-color: #4aaaa5;
+	width:200px;
+	text-align: center;
+
+
+}
+
+.nav{
+	float:right;
+	margin-top:10px;
+	margin-right: 200px;
+	margin-left: 150px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
+.container{
+	
+	float: left;
+	width:650px;
+	height: 410px;
+	background-color: white;
+
+}
+
+div#sidebar{
+	float:right;
+	position: absolute;
+	width:270px;
+	background-color: white;
+	margin-left: 670px;
+	height: 140px;
+}
+
+.footer{
+	overflow: auto;
+	background-color: #666666;
+	margin-top:430px;
+	height: 50px;
+	border-top:8px solid;
+	border-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:22px;
+	color: #4aaaa5;
+	border-bottom: 2px solid;
+	border-color: #cccccc;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+
+}
+h2{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+}
+
+p{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: justify;
+	color:#777777;
+}
+img{
+	float: left;
+	margin-right: 8px;
+	border:2px solid #777777;
+	margin-left: 8px;
+	margin-bottom: 6px;
+	
+	
+}
+
+a.active{
+	color: #777777;
+}
+
+a.focus{
+	color:gray;
+}
+
+a.hover{
+	color:black;
+}
+
+form{
+	color:#777777;
+	margin-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:15px;
+}
+
+input[type=submit]{
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-size: 15px;
+	padding:5px 15px;
+}
+
